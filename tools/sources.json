@@ -1,0 +1,27 @@
+{
+  "_comment": "週次ネタ集めの対象誌。ndl=国会図書館の雑誌記事索引(記事単位/1〜2か月遅れ)、fujisan=Fujisanの最新号目次。dマガジン収録外の雑誌があれば消してOK",
+  "ndl": [
+    {"name": "週刊東洋経済", "query": "週刊東洋経済", "match": "週刊東洋経済", "genre": "経済"},
+    {"name": "週刊ダイヤモンド", "query": "週刊ダイヤモンド", "match": "ダイヤモンド", "genre": "経済"},
+    {"name": "PRESIDENT", "query": "PRESIDENT", "match": "President", "genre": "経済"},
+    {"name": "AERA", "query": "AERA", "match": "アエラ", "genre": "社会"},
+    {"name": "婦人公論", "query": "婦人公論", "match": "婦人公論", "genre": "社会"},
+    {"name": "週刊文春", "query": "週刊文春", "match": "週刊文春 /", "genre": "社会"},
+    {"name": "週刊新潮", "query": "週刊新潮", "match": "週刊新潮", "genre": "社会"},
+    {"name": "週刊現代", "query": "週刊現代", "match": "週刊現代", "genre": "社会"},
+    {"name": "Newton", "query": "Newton ニュートン", "match": "ニュートン", "genre": "科学"},
+    {"name": "キネマ旬報", "query": "キネマ旬報", "match": "キネマ旬報", "genre": "エンタメ"}
+  ],
+  "fujisan": [
+    {"name": "日経エンタテインメント!", "id": "1281679710", "genre": "エンタメ"},
+    {"name": "日経トレンディ", "id": "1936", "genre": "経済"},
+    {"name": "Number", "id": "3146", "genre": "エンタメ"},
+    {"name": "BRUTUS", "id": "2332", "genre": "エンタメ"},
+    {"name": "anan", "id": "103", "genre": "エンタメ"},
+    {"name": "キネマ旬報", "id": "495", "genre": "エンタメ"},
+    {"name": "Pen", "id": "1220627", "genre": "エンタメ"},
+    {"name": "SPA!", "id": "1431", "genre": "社会"},
+    {"name": "DIME", "id": "1608", "genre": "経済"},
+    {"name": "GetNavi", "id": "1210063", "genre": "経済"}
+  ]
+}
