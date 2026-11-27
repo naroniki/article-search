@@ -87,7 +87,7 @@ def fujisan(src):
         toc = ""
     if "●" not in toc:  # ■●形式でない目次は、注意書きを除いて本文のまま返す
         text = re.sub(r"※.*?(?:ございます。|ません。|です。)", "", toc).strip()
-        return ([{"raw": text[:2000]}] if text else []), issue, page
+        return ([{"raw": text[:3000]}] if text else []), issue, page
     out, section = [], ""
     for part in re.split(r"(?=[■●])", toc):
         part = part.strip()
